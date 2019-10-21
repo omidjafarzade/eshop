@@ -36,3 +36,12 @@ h2{
 {
     clear: both;
 }
+
+.flex {
+    display: flex;
+}
+
+select,
+input {
+    font-family: inherit;
+}

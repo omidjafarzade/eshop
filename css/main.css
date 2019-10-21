@@ -17,12 +17,7 @@
 
 .topinfo {
     border-bottom: 1px solid #303e4f;
-    display: flex;
     justify-content: space-between;
-}
-
-.accountlist {
-    display: flex;
 }
 
 
@@ -47,4 +42,56 @@
 .fa-icon {
     width: 20px;
     vertical-align: middle;
+}
+
+.header-info {
+    padding: 20px;
+}
+
+.searchbox {
+    flex-grow: 1;
+    justify-content: center;
+    height: 40px;
+}
+
+.categoryslist{
+    border: none;
+    padding: 8px 30px;
+    border-radius: 0 20px 20px 0;
+}
+
+.searchinput {
+    border:none;
+    padding: 8px 40px;
+}
+
+.btnsearch {
+    padding: 10px 20px;
+    background-color: #F4A137;
+    color: #fff !important;
+    border-radius: 20px 0 0 20px;
+}
+
+.contactus {
+    margin: 0 0.8em;
+    font-size: 0.8em;
+}
+
+.contactusicon {
+    font-size: 2em;
+    padding: 5px 10px;
+}
+
+.cart {
+    font-size: 0.8em;
+}
+
+.basket{
+    margin-top: -8px;
+}
+
+.carticon {
+    background-color: #F4A137;
+    padding: 8px;
+    font-size: 0.8em;
 }
