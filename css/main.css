@@ -1,7 +1,10 @@
 .wrapper {
     width: 90%;
     margin: 10px auto 10px;
+    box-shadow: 0 0 10px 0 silver;
 }
+
+
 /*  header  */
 
 .header {
@@ -158,4 +161,153 @@
 
 .submenulistitem {
     width: 15%;
+}
+
+
+
+/*  main  */
+
+.main {
+    background-color: #fff;
+}
+
+
+.slider {
+    height: 422px;
+    padding: 15px;
+}
+
+.banner {
+    width: 285px;
+    height: 422px;
+}
+
+.r_ads {
+    width: 25%;
+    margin-left: 15px;
+}
+
+.l_ads {
+    flex-grow: 1;
+}
+
+.r_ads img,
+.l_ads img {
+    width: 100%;
+    height: 100%;
+}
+
+.topproductitem {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.topproduct {
+    background-color: #F2F2F2;
+}
+
+.topproductimage img {
+    border-radius: 50%;
+    padding-left: 12px;
+}
+.topproductitem {
+    align-self: center;
+}
+
+.ts_detial {
+    flex-grow: 2;
+    border:1px solid #DDDDDD;
+    margin: 20px;
+    width: 40%;
+}
+
+.like {
+    margin-right: 5px;
+}
+
+.ts_list {
+    flex-grow: 3;
+    width: 60%;
+}
+
+.ts_productlist {
+    flex-wrap: wrap;
+}
+
+.ts_productitem {
+    width: 33%;
+    flex-grow: 1;
+}
+
+.ts_productitemdetail {
+    border:1px solid #DDDDDD;
+    margin: 10px;
+    padding: 15px;
+}
+
+.productimage {
+    width: 100%;
+}
+
+.producttitle {
+    color: #000;
+    display: block;
+}
+
+.producttitle:hover {
+    color: #f4a137;
+}
+.priceitem {
+    color: red;
+}
+
+.priceitem_old {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 13px;
+}
+
+.productaction {
+    margin: 15px 0;
+}
+
+.productimageoverlay {
+    position: relative;
+    overflow: hidden;
+}
+
+.imageoverlay {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+ 
+.ts_productitemdetail:hover {
+    box-shadow: 0 0 10px 0 silver;    
+}
+
+.ts_productitemdetail:hover .imageoverlay  {
+    top: 0;
+    opacity: 1;
+}
+
+.ts_productitemdetail:hover .btn_default {
+    top: 40%;
+    opacity: 1;
+}
+.ts_productitemdetail .btn_default {
+    position: absolute;
+    top: -100%;
+    right: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.sliderthumb {
+    border: 1px solid #ddd;
+    margin-left: 10px;
 }

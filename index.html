@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/fontiran.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
     <title>فروشگاه من</title>
 </head>
 
@@ -36,10 +37,10 @@
                 </div>
                 <div class="searchbox flex">
                     <select name="" id="" class="categoryslist">
-                        <option value="1">کامپیوتر</option>
+                        <option value="1">شبکــه</option>
                         <option value="2">لپ تاب</option>
                         <option value="3">موبایل</option>
-                        <option value="4">شبکه</option>
+                        <option value="4">کامپیوتر</option>
                         <option value="5">پرینتر</option>
                     </select>
                     <input class="searchinput" type="text" name="" id="" placeholder="عنوان را برای جستجو وارد کنید">
@@ -69,7 +70,7 @@
             <nav class="mainnav">
                 <ul class="topnav flex">
                     <li class="topnavitem">
-                        <a href="" class="topnavlink hotcategory">صفحه نخست</a>
+                        <a href="" class="topnavlink">صفحه نخست</a>
                         <div class="submenu">
                             <div class="submenucontainer">
                                 <ul class="submenulist flex">
@@ -99,7 +100,7 @@
                         </div>
                     </li>
                     <li class="topnavitem">
-                        <a href="" class="topnavlink">لوازم دیجیتال</a>
+                        <a href="" class="topnavlink hotcategory">لوازم دیجیتال</a>
                     </li>
                     <li class="topnavitem">
                         <a href="" class="topnavlink hotcategory">لوازم هنری</a>
@@ -116,7 +117,200 @@
                 </ul>
             </nav>
         </header>
-        <main></main>
+        <main class="main">
+            <section class="slider flex">
+                <div class="r_ads">
+                    <img class="banner" src="images/banner-header.png" alt="r ads">
+                </div>
+                <div class="l_ads">
+                    <img src="images/slide1.png" alt="l ads">
+                </div>
+            </section>
+            <section class="topproduct flex">
+                <div class="topproductitem flex">
+                    <div class="topproductimage">
+                        <img src="images/sh1.jpg" alt="shoe">
+                    </div>
+                    <div class="topproductitem">
+                        کفش های مردانه
+                        <br>
+                        کفش خود را انتخاب کن
+                        <br>
+                        <a href="#">اکنون خرید نمایید</a>
+                    </div>
+                </div>
+                <div class="topproductitem flex">
+                    <div class="topproductimage">
+                        <img src="images/sh2.jpg" alt="shoe">
+                    </div>
+                    <div class="topproductitem">
+                        کفش های زنانه
+                        <br>
+                        کفش خود را انتخاب کن
+                        <br>
+                        <a href="#">اکنون خرید نمایید</a>
+                    </div>
+                </div>
+                <div class="topproductitem flex">
+                    <div class="topproductimage">
+                        <img src="images/sh3.jpg" alt="shoe">
+                    </div>
+                    <div class="topproductitem">
+                        کفش های بچه گانه
+                        <br>
+                        کفش خود را انتخاب کن
+                        <br>
+                        <a href="#">اکنون خرید نمایید</a>
+                    </div>
+                </div>
+            </section>
+            <section class="top_sell flex">
+                <div class="ts_detial ts_productitemdetail">
+                    <div class="productimageoverlay">
+                        <img class="productimage" src="images/s_big_1.jpg" alt="product1">
+                        <a href="#" class="btn btn_default">مشاهده</a>
+                    </div>
+                    <h3>
+                        <a class="producttitle" href="#">گوشی اندروید</a>
+                    </h3>
+                    <span class="priceitem">97000$</span>
+                    <div class="productaction">
+                        <a href="#" class="btn btn_solid"><i class="fas fa-shopping-cart"></i>
+                            <span>افزودن به سبد</span>
+                        </a>
+                        <a href="#" class="btn btn_reg like"><i class="fas fa-heart"></i></a>
+                        <a href="#" class="btn btn_reg"><i class="fas fa-exchange-alt"></i></a>
+                    </div>
+                    <ul class="sliderlittle flex">
+                        <li class="sliderthumb">
+                            <img src="images/s_thumb_1.jpg" alt="thumb_1">
+                        </li>
+                        <li class="sliderthumb">
+                            <img src="images/s_thumb_2.jpg" alt="thumb_2">
+                        </li>
+                        <li class="sliderthumb">
+                            <img src="images/s_thumb_3.jpg" alt="thumb_3">
+                        </li>
+                        <li class="sliderthumb">
+                            <img src="images/s_thumb_4.jpg" alt="thumb_4">
+                        </li>
+                    </ul>
+                </div>
+                <div class="ts_list">
+                    <ul class="ts_productlist flex">
+                        <li class="ts_productitem">
+                            <div class="ts_productitemdetail">
+                                <div class="productimageoverlay">
+                                    <img class="productimage" src="images/p1_a.jpg" alt="product1">
+                                    <img class="productimage imageoverlay" src="images/p1_b.jpg" alt="product1">
+                                    <a href="#" class="btn btn_default">مشاهده</a>
+                                </div>
+                                <h3>
+                                    <a class="producttitle" href="#">کیف زنانه</a>
+                                </h3>
+                                <span class="priceitem">97000$</span>
+                                <div class="productaction">
+                                    <a href="#" class="btn btn_solid"><i class="fas fa-shopping-cart"></i></a>
+                                    <a href="#" class="btn btn_reg"><i class="fas fa-heart"></i></a>
+                                    <a href="#" class="btn btn_reg"><i class="fas fa-exchange-alt"></i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="ts_productitem">
+                            <div class="ts_productitemdetail">
+                                <div class="productimageoverlay">
+                                    <img class="productimage" src="images/p2_a.jpg" alt="product1">
+                                    <img class="productimage imageoverlay" src="images/p2_b.jpg" alt="product1">
+                                    <a href="#" class="btn btn_default">مشاهده</a>
+                                </div>
+                                <h3>
+                                    <a class="producttitle" href="#">ساعت مردانه</a>
+                                </h3>
+                                <span class="priceitem">97000$</span>
+                                <div class="productaction">
+                                    <a href="#" class="btn btn_solid"><i class="fas fa-shopping-cart"></i></a>
+                                    <a href="#" class="btn btn_reg"><i class="fas fa-heart"></i></a>
+                                    <a href="#" class="btn btn_reg"><i class="fas fa-exchange-alt"></i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="ts_productitem">
+                            <div class="ts_productitemdetail">
+                                <div class="productimageoverlay">
+                                    <img class="productimage" src="images/p3_a.jpg" alt="product1">
+                                    <img class="productimage imageoverlay" src="images/p3_b.jpg" alt="product1">
+                                    <a href="#" class="btn btn_default">مشاهده</a>
+                                </div>
+                                <h3>
+                                    <a class="producttitle" href="#">کیف زنانه</a>
+                                </h3>
+                                <span class="priceitem">67000$</span>
+                                <div class="productaction">
+                                    <a href="#" class="btn btn_solid"><i class="fas fa-shopping-cart"></i></a>
+                                    <a href="#" class="btn btn_reg"><i class="fas fa-heart"></i></a>
+                                    <a href="#" class="btn btn_reg"><i class="fas fa-exchange-alt"></i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="ts_productitem">
+                            <div class="ts_productitemdetail">
+                                <div class="productimageoverlay">
+                                    <img class="productimage" src="images/p4.jpg" alt="product1">
+                                    <a href="#" class="btn btn_default">مشاهده</a>
+                                </div>
+                                <h3>
+                                    <a class="producttitle" href="#">ال سی دی</a>
+                                </h3>
+                                <span class="priceitem">50000$</span>
+                                <span class="priceitem_old">62000$</span>
+                                <div class="productaction">
+                                    <a href="#" class="btn btn_solid"><i class="fas fa-shopping-cart"></i></a>
+                                    <a href="#" class="btn btn_reg"><i class="fas fa-heart"></i></a>
+                                    <a href="#" class="btn btn_reg"><i class="fas fa-exchange-alt"></i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="ts_productitem">
+                            <div class="ts_productitemdetail">
+                                <div class="productimageoverlay">
+                                    <img class="productimage" src="images/p5.jpg" alt="product1">
+                                    <a href="#" class="btn btn_default">مشاهده</a>
+                                </div>
+                                <h3>
+                                    <a class="producttitle" href="#">لپ تاب</a>
+                                </h3>
+                                <span class="priceitem">50000$</span>
+                                <span class="priceitem_old">62000$</span>
+                                <div class="productaction">
+                                    <a href="#" class="btn btn_solid"><i class="fas fa-shopping-cart"></i></a>
+                                    <a href="#" class="btn btn_reg"><i class="fas fa-heart"></i></a>
+                                    <a href="#" class="btn btn_reg"><i class="fas fa-exchange-alt"></i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="ts_productitem">
+                            <div class="ts_productitemdetail">
+                                <div class="productimageoverlay">
+                                    <img class="productimage" src="images/p6_a.jpg" alt="product1">
+                                    <img class="productimage imageoverlay" src="images/p6_b.jpg" alt="product1">
+                                    <a href="#" class="btn btn_default">مشاهده</a>
+                                </div>
+                                <h3>
+                                    <a class="producttitle" href="#">جواهر</a>
+                                </h3>
+                                <span class="priceitem">45000$</span>
+                                <span class="priceitem_old">62000$</span>
+                                <div class="productaction">
+                                    <a href="#" class="btn btn_solid"><i class="fas fa-shopping-cart"></i></a>
+                                    <a href="#" class="btn btn_reg"><i class="fas fa-heart"></i></a>
+                                    <a href="#" class="btn btn_reg"><i class="fas fa-exchange-alt"></i></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
         <footer class="footer"></footer>
     </div>
 </body>

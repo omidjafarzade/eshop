@@ -8,25 +8,31 @@ html
 {
     box-sizing: inherit;
 }
+
 body
 {
     font-family: IRANSans;
     box-sizing: border-box;
     margin: 0;
 }
+
 ul
 {
     padding: 0;
     margin: 0;
     list-style: none;
 }
+
 a
 {
-text-decoration: none;
+   text-decoration: none;
+    transition: all 0.1s linear;
 }
+
 h2{
     margin: 0.70em;
 }
+
 .clearfix::before,
 .clearfix::after{
     content: '';
