@@ -311,3 +311,51 @@
     border: 1px solid #ddd;
     margin-left: 10px;
 }
+
+.bannor {
+    padding: 15px;
+}
+.bannor img{
+    width: 100%;
+    display: block;
+}
+
+.newproductitem {
+    width: 25%;
+}
+
+.collectionitem {
+    width: 16.5%;
+    flex-grow: 1;
+}
+ 
+.collectiondetiolitem {
+    background-color: #eee;
+    border: 1px solid transparent;
+}
+
+.collectiondetiolitem:hover {
+    border-color: #f4a137;
+    background-color: #fff;
+}
+
+.collectiondetiolitem {
+    margin: 5px;
+}
+ 
+.collectionlink {
+    display: block;
+    border-bottom: 3px solid #f4a137;
+    position: relative;
+}
+
+.collectiontitle {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    display: block;
+    color: #999;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
