@@ -359,3 +359,99 @@
     font-weight: bold;
     width: 100%;
 }
+ .hotsalecontainer {
+     flex-wrap: wrap;
+ }
+.hotsaleitem {
+    width: 33%;
+    flex-grow: 1;
+}
+
+.hotsaledetail {
+    margin: 10px;
+    border: 1px solid #ddd;
+}
+
+.hotsaleimage {
+    width: 150px;
+}
+
+.hotsaleimage img {
+    width: 100%;
+}
+
+.hotsaleimage:hover {
+    opacity: 0.8;
+}
+.hotsaleinfo{
+    flex-grow: 1;
+}
+
+.hotsaledetail:hover {
+    box-shadow: 0 0 10px 0 silver;
+}
+
+.hotcategoryitems {
+    width: 25%;
+}
+.hotcategoryditails {
+    margin: 6px;
+}
+
+.hotcategorys {
+    background-color: #F5F5F5;
+}
+
+.hotcategoryimage {
+    position: relative;
+    width: 280px;
+}
+ 
+.hotcategoryimage img{
+    width: 100%;
+}
+
+.hotcategoryimage .btnn {
+    position: absolute;
+    bottom: 40px;
+    left: 35px;
+}
+
+.btnn:hover {
+    background-color:#000;
+    border-color: #000;
+}
+
+.hotcategoryimage:hover img {
+    opacity: 0.8;
+    transition: all 0.3s linear;
+}
+
+.hotcategoryh {
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding-right: 10px;
+}
+
+.hotcategoryh a {
+    color: #444;
+}
+
+.hotcategoryh:hover a{
+    color: #F4A137;
+    transition: all 0.2s linear;
+}
+.categorylist {
+    list-style: square inside;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.categoryitem:hover ,
+.categoryitem:hover a {
+    color: #F4A137;
+    transition: all 0.2s linear;
+}
+.categorylink{
+    color: #666;
+}
